@@ -1,0 +1,31 @@
+{
+  "timeZone": "Asia/Singapore",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Sheets",
+        "serviceId": "sheets",
+        "version": "v4"
+      },
+      {
+        "userSymbol": "Drive",
+        "version": "v3",
+        "serviceId": "drive"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "LeadData",
+        "version": "0",
+        "libraryId": "1GUSSXFSVxoYhrSyNsRl2XZPJ3hRF7EQKhMAXuJDybBZrS7i0w48-4Y4Y",
+        "developmentMode": true
+      }
+    ]
+  },
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "ANYONE"
+  }
+}
